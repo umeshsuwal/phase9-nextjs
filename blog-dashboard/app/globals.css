@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f9fafb;
+  color: #111827;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+}
+nav a {
+  color: #1d4ed8;
+  font-weight: 600;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 960px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+}
+section {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fff;
+}
+section h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+.chart-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 160px;
+  border: 2px dashed #9ca3af;
+  border-radius: 8px;
+  color: #4b5563;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  min-width: 640px;
+  border-collapse: collapse;
+}
+caption {
+  padding: 0.5rem 0;
+  color: #4b5563;
+  text-align: left;
+}
+th,
+td {
+  padding: 0.6rem 0.75rem;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+thead th {
+  background: #f3f4f6;
+}
+tbody th {
+  font-weight: 600;
+}
+.num {
+  text-align: right;
+}

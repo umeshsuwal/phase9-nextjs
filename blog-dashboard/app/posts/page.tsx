@@ -2,6 +2,8 @@ import { Suspense } from 'react';
 import { connection } from 'next/server';
 import { getPosts, getServerTime } from '@/lib/data';
 
+export const instant = false;
+
 async function ServerTime() {
   await connection();
   return getServerTime();

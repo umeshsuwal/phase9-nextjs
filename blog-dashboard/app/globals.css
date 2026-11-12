@@ -86,3 +86,24 @@ tbody th {
 .num {
   text-align: right;
 }
+
+label {
+  display: block;
+  margin-top: 0.75rem;
+  font-weight: 600;
+}
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #6b7280;
+  border-radius: 8px;
+  font: inherit;
+}
+form button {
+  margin: 0.75rem 0.5rem 0 0;
+  padding: 0.5rem 1rem;
+}

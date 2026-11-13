@@ -1,6 +1,9 @@
 import type { ReactNode } from 'react';
 import Link from 'next/link';
+import { Inter } from 'next/font/google';
 import './globals.css';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Blog Dashboard',
@@ -9,7 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.className}>
       <body>
         <nav>
           <Link href="/">Home</Link>

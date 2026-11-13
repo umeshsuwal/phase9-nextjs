@@ -32,6 +32,12 @@ main {
   margin: 1.5rem auto;
   padding: 0 1rem;
 }
+main > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+}
 section {
   margin-bottom: 1.5rem;
   padding: 1rem;

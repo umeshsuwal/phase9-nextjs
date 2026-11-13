@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="240" viewBox="0 0 640 240" role="img" aria-labelledby="title description">
+  <title id="title">Blog activity dashboard illustration</title>
+  <desc id="description">A line chart and bars representing post activity and comments.</desc>
+  <rect width="640" height="240" rx="16" fill="#eff6ff"/>
+  <rect x="32" y="32" width="360" height="176" rx="12" fill="#fff" stroke="#bfdbfe"/>
+  <path d="M64 168h296M64 136h296M64 104h296M64 72h296" stroke="#dbeafe"/>
+  <path d="M72 156l64-36 64 16 64-64 64 24" fill="none" stroke="#1d4ed8" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+  <circle cx="328" cy="96" r="7" fill="#1d4ed8"/>
+  <rect x="424" y="72" width="56" height="104" rx="8" fill="#93c5fd"/>
+  <rect x="504" y="104" width="56" height="72" rx="8" fill="#2563eb"/>
+  <rect x="584" y="48" width="24" height="128" rx="8" fill="#1e40af"/>
+</svg>

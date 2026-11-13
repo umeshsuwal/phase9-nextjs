@@ -1,8 +1,15 @@
 import { getAuthors, getPosts } from '@/lib/data';
+import type { Metadata } from 'next';
+import Image from 'next/image';
 import { PostsTable } from './PostsTable';
 import { CommentsChart } from './CommentsChart';
 
 export const instant = false;
+
+export const metadata: Metadata = {
+  title: 'Dashboard | Blog Dashboard',
+  description: 'Review post activity and comment totals by author.',
+};
 
 export default async function DashboardPage({
   searchParams,
@@ -26,6 +33,13 @@ export default async function DashboardPage({
   return (
     <div>
       <h1>Dashboard</h1>
+      <Image
+        src="/dashboard-activity.svg"
+        alt="Illustration of post activity and comment totals"
+        width={640}
+        height={240}
+        priority
+      />
 
       <section aria-labelledby="filter-heading">
         <h2 id="filter-heading">Filter</h2>

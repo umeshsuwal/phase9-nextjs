@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "slug": "getting-started-with-react-hooks",
+    "title": "Getting started with React hooks",
+    "content": "Hooks let function components keep state and run side effects.\n\nStart with useState for values that change, and useEffect for work that must happen after a render.",
+    "author": "Umesh Suwal",
+    "createdAt": "2026-10-01T09:00:00.000Z",
+    "updatedAt": "2026-10-01T09:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "slug": "designing-accessible-forms",
+    "title": "Designing accessible forms",
+    "content": "Every field needs a visible label, and every error needs to be announced.\n\nLink an input to its error message with aria-describedby and mark it with aria-invalid.",
+    "author": "Umesh Suwal",
+    "createdAt": "2026-10-08T09:00:00.000Z",
+    "updatedAt": "2026-10-08T09:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "slug": "server-components-in-practice",
+    "title": "Server components in practice",
+    "content": "Server components load data directly and send no component JavaScript to the browser.\n\nKeep 'use client' on the smallest leaf that needs interactivity.",
+    "author": "Umesh Suwal",
+    "createdAt": "2026-10-15T09:00:00.000Z",
+    "updatedAt": "2026-10-15T09:00:00.000Z"
+  }
+]
